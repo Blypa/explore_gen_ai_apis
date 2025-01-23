@@ -1,0 +1,28 @@
+[project]
+name = "explore-gen-ai-apis"
+version = "0.1.0"
+description = "Demo project of using a few GenAI API's"
+authors = [
+    {name = "Borys Lypa"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "streamlit (>=1.41.1,<2.0.0)",
+    "langchain (>=0.3.14,<0.4.0)",
+    "langchain-openai (>=0.3.1,<0.4.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "replicate (>=1.0.4,<2.0.0)",
+    "langchain-anthropic (>=0.3.3,<0.4.0)",
+    "langchain-together (>=0.3.0,<0.4.0)",
+    "together (>=1.3.11,<2.0.0)",
+    "deepl (>=1.21.0,<2.0.0)",
+    "langchain-google-vertexai (>=2.0.11,<3.0.0)",
+    "openai (>=1.60.0,<2.0.0)",
+    "anthropic (>=0.44.0,<0.45.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

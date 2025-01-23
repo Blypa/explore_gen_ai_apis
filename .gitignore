@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# VSCode
+.vscode
+
+# explore_gen_ai_apis
+.python-version
+credentials
